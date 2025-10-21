@@ -20,8 +20,8 @@ Built using React outdated class components to help me learn what came before fu
 ## 🚀 Getting Started
 ```bash
 git clone https://github.com/luther0929/react-mini-projects.git
-cd react-mini-projects
-cd classy-weather
+cd react-mini-projects/classy-weather
+npm install
 npm start
 ```
 <img width="1833" height="835" alt="image" src="https://github.com/user-attachments/assets/a27f7df2-4900-44fe-9e41-d345940a95fb" />
