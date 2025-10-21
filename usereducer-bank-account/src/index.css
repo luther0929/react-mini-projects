@@ -1,0 +1,131 @@
+/* ---------- Base ---------- */
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #0d162a, #1e293b, #334155);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1rem;
+}
+
+/* ---------- App Card ---------- */
+.App {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.068)
+  );
+  backdrop-filter: blur(15px);
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem 3rem;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.App:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Title ---------- */
+h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #f1f5f9;
+}
+
+/* ---------- Account Info ---------- */
+.App > p:nth-of-type(1),
+.App > p:nth-of-type(2) {
+  font-size: 1.05rem;
+  color: #e2e8f0;
+  margin-bottom: 1.25rem;
+}
+
+/* ---------- Form Row Layout ---------- */
+.App p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ---------- Inputs ---------- */
+input[type="number"],
+input[type="text"] {
+  width: 55%;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease;
+  min-width: 0;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 2px #00c6ff88;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  width: 40%;
+  flex-shrink: 0;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: linear-gradient(135deg, #0078d4, #00c6ff);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #00aaff, #00e0ff);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 180, 255, 0.3);
+}
+
+button:disabled {
+  background: rgba(255, 255, 255, 0.15);
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 480px) {
+  .App {
+    padding: 2rem;
+  }
+
+  .App p {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input[type="number"],
+  input[type="text"],
+  button {
+    width: 100%;
+  }
+}

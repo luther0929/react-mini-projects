@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  background: linear-gradient(180deg, #1b1035 0%, #7657be 100%);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 0.8rem 1.6rem;
+  width: 260px;
+  gap: 0.8rem;
+}
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-icon {
+  font-size: 1.6rem;
+  opacity: 0.7;
+}
+
+/* --- Weather Cards --- */
+.weather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.day {
+  width: 140px;
+  height: 260px;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.day:hover {
+  transform: translateY(-8px);
+  opacity: 0.95;
+}
+
+.day span {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Gradient Themes (Day vs Night) */
+.day.today {
+  background: linear-gradient(180deg, #6b4ce6 0%, #3b1d72 100%);
+}
+
+.day.sunset {
+  background: linear-gradient(180deg, #e26b6b 0%, rgb(110, 46, 140) 100%);
+}
+
+.day.night {
+  background: linear-gradient(180deg, #1a275a 0%, #0d0b2d 100%);
+}
+
+/* Temperature + labels */
+.day p {
+  font-size: 1.4rem;
+  opacity: 0.85;
+}
+
+.day strong {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.weather-container h2 {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #cfcff7;
+}
+
+/* Loader */
+.loader {
+  font-size: 1.8rem;
+  color: #ccc;
+}
