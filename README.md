@@ -19,7 +19,7 @@ Weather forecast app built to understand how class components differ from functi
 A small banking simulation project built to practice the `useReducer` hook for complex state management.  
 
 🔗 **Live Demo:** [usereducer-bank-account-luther.netlify.app](https://usereducer-bank-account-luther.netlify.app)  
-<img src="./assets/usereducer-bank-account.gif" width="500" alt="useReducer Bank Account Demo"/>
+<img src="./assets/usereducer-bank-account.gif" width="400" alt="useReducer Bank Account Demo"/>
 
 
 
