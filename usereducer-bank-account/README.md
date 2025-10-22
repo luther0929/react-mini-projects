@@ -29,6 +29,3 @@ cd react-mini-projects/usereducer-bank-account
 npm install
 npm start
 ```
-
-## Snapshot
-<img width="637" height="799" alt="image" src="https://github.com/user-attachments/assets/915ea3fd-b975-46c4-b220-51ee4ddf1e5a" />
