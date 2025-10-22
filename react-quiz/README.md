@@ -24,4 +24,4 @@ npm run server
 npm start
 ```
 
-<img width="863" height="842" alt="image" src="https://github.com/user-attachments/assets/63f24fb9-8b09-44e6-8921-9710545df434" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/63f24fb9-8b09-44e6-8921-9710545df434" />
