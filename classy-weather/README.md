@@ -4,7 +4,9 @@ A weather webapp that generates the 7-day forecast of any city in the world.
 
 Built using React outdated class components to help me learn what came before functional components, a more modern, concise, and often more intuitive way to build React applications.
 
-**👀 Live Demo:** [classy-weather-luther.netlify.app](https://classy-weather-luther.netlify.app) 
+**👀 Live Demo:** [classy-weather-luther.netlify.app](https://classy-weather-luther.netlify.app)
+
+<img src="../assets/classy-weather.gif" width="1000" alt="Classy Weather Demo"/>
 
 ## 🧠 What I learned
 - Explicity lifecycles of class components vs more concise useEffect hook of functional components
@@ -26,4 +28,4 @@ cd react-mini-projects/classy-weather
 npm install
 npm start
 ```
-<img width="1833" height="835" alt="image" src="https://github.com/user-attachments/assets/a27f7df2-4900-44fe-9e41-d345940a95fb" />
+
