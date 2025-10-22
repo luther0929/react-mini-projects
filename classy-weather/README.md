@@ -4,6 +4,8 @@ A weather webapp that generates the 7-day forecast of any city in the world.
 
 Built using React outdated class components to help me learn what came before functional components, a more modern, concise, and often more intuitive way to build React applications.
 
+**👀 Live Demo:** [classy-weather-luther.netlify.app](https://classy-weather-luther.netlify.app) 
+
 ## 🧠 What I learned
 - Explicity lifecycles of class components vs more concise useEffect hook of functional components
 - this.state and this.setState() of class components vs the modern useState() hook of functional components
