@@ -4,6 +4,8 @@ A simple bank webapp using useReducer for managing state
 
 **👀 Live Demo:** [usereducer-bank-account-luther.netlify.app](https://usereducer-bank-account-luther.netlify.app)
 
+<img src="../assets/usereducer-bank-account.gif" width="600" alt="useReducer Bank Account Demo"/>
+
 ## 🧠 What I learned
 - A deeper dive how to manage state using useReducer
 - Better understanding of usage of action payload
