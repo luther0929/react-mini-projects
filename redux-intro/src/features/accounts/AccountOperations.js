@@ -14,6 +14,7 @@ function AccountOperations() {
     loan: currentLoan,
     loanPurpose: currenLoanPurpose,
     balance,
+    isLoading,
   } = useSelector((state) => state.account);
 
   function handleDeposit() {
@@ -60,7 +61,9 @@ function AccountOperations() {
             <option value="GBP">British Pound</option>
           </select>
 
-          <button onClick={handleDeposit}>Deposit {depositAmount}</button>
+          <button onClick={handleDeposit} disabled={isLoading}>
+            {isLoading ? 'Converting...' : `Deposit {depositAmount}`}
+          </button>
         </div>
 
         <div>
