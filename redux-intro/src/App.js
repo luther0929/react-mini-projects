@@ -14,8 +14,8 @@ function App() {
       ) : (
         <>
           <Customer />
-          <AccountOperations />
           <BalanceDisplay />
+          <AccountOperations />
         </>
       )}
     </div>
