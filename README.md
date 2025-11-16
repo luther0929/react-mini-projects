@@ -10,6 +10,42 @@ Expect frequent updates and iterative improvements.*
 
 ---
 
+## 👀 Live Demos
+
+### 🌦️ Classy Weather  
+Weather forecast app built to understand how class components differ from functional components.  
+
+🔗 **Live Demo:** [classy-weather-luther.netlify.app](https://classy-weather-luther.netlify.app)  
+<img src="./assets/classy-weather.gif" width="500" alt="Classy Weather Demo"/>
+
+---
+
+### 🏧 Redux Intro
+A banking app to practice legacy Redux and modern Redux Toolkit.
+
+🔗 **Live Demo:** [redux-intro-luther.netlify.app](https://redux-intro-luther.netlify.app)
+
+<img src="./assets/redux-intro.gif" width="500" alt="Redux Intro Demo"/>
+
+---
+
+### 🏋️ Workout Timer
+Workout Timer app with sound interaction to better understand useEffect hook.
+
+🔗 **Live Demo:** [workout-timer-luther.netlify.app](https://workout-timer-luther.netlify.app)
+
+<img src="./assets/workout-timer.gif" width="500" alt="Workout Timer Demo"/>
+
+---
+
+### 💸 useReducer Bank Account  
+A small banking simulation project built to practice the `useReducer` hook for complex state management.  
+
+🔗 **Live Demo:** [usereducer-bank-account-luther.netlify.app](https://usereducer-bank-account-luther.netlify.app)  
+<img src="./assets/usereducer-bank-account.gif" width="400" alt="useReducer Bank Account Demo"/>
+
+---
+
 ## 📑 Commit Message Convention
 Starting 29/10/2025, this repository follows the Conventional Commits format for better clarity.
 
@@ -42,24 +78,3 @@ docs(repo): update README with list of mini projects
 | `test`     | Adding or updating tests                    |
 
 Earlier commits may use simpler messages (e.g., “Added sidebar component”) before adopting this standard, reflecting the project’s evolution toward professional Git workflows.
-
----
-
-## 👀 Live Demos
-
-### 🌦️ Classy Weather  
-Weather forecast app built to understand how class components differ from functional components.  
-
-🔗 **Live Demo:** [classy-weather-luther.netlify.app](https://classy-weather-luther.netlify.app)  
-<img src="./assets/classy-weather.gif" width="500" alt="Classy Weather Demo"/>
-
----
-
-### 💸 useReducer Bank Account  
-A small banking simulation project built to practice the `useReducer` hook for complex state management.  
-
-🔗 **Live Demo:** [usereducer-bank-account-luther.netlify.app](https://usereducer-bank-account-luther.netlify.app)  
-<img src="./assets/usereducer-bank-account.gif" width="400" alt="useReducer Bank Account Demo"/>
-
-
-
